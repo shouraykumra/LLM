@@ -50,3 +50,13 @@ What did Mark Cuban said in the latest news?
 - Mark Cuban, the billionaire entrepreneur and Dallas Mavericks owner, expressed his bullish outlook on Bitcoin (BTC) and Ethereum (ETH) in a CNBC interview.
 - He believes that Bitcoin and Ethereum are here to stay and that they will continue to be a part of the financial system.
 - Cuban also mentioned that he owns some Bitcoin and Ethereum, and he encourages others to educate themselves about these digital assets.
+
+**Exploring PandasAI for Visualizing Yahoo Finance Data After Fine-Tuning My Text Model**
+
+After fine-tuning a text model with the latest news dataset that I scraped from Yahoo Finance, I wanted to check the credibility of the sentiments in the replies that my fine-tuned LLM was generating. To do that, I needed access to fresh data and visualizations. Naturally, I thought about using Yahoo’s API to bring the data locally and create some charts.
+
+But instead of writing queries on my own, I decided to be lazy and use AI again! That’s when I stumbled upon PandasAI—a new AI-powered library that integrates seamlessly with Pandas and can execute DataFrame queries automatically. With PandasAI, you can make use of machine learning to manipulate and visualize data effortlessly without manually writing complex code. You can even use PandasAI via REST APIs, which further simplifies data processing and querying.
+
+Using the Yahoo connector available in PandasAI, I was able to generate graphs that clearly show even with minimal training, my fine-tuned LLM was providing fairly credible results. Some of the key visualizations I made include the 20, 50, and 200-day moving averages, which highlight important trends in the stock data I analyzed.
+
+I also tried running some complex queries like asking the model to generate two responses at once, but it didn't quite work as expected.
